@@ -10,3 +10,9 @@ h3{
     font-family: 'Gotham-light';
     src: url('../Fonts/Gotham-Font/Gotham-Font/Gotham-Light.otf');
 }
+
+@media (max-width:800px) {
+    .footer{
+        padding: 10px;
+    }
+}

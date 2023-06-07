@@ -30,10 +30,10 @@
 }
 .img{
     height: 400px;
-    width: 800px;
+    width: 50vw;
     /* background-color: aqua; */
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../Images/Group 726.png');
 }
@@ -61,6 +61,7 @@ button{
     font-weight: bold;
     font-size: 20px;
     height: 60px;
+    width: 350px;
     color: white;
     background-color: transparent;
     /* background-color: none; */
@@ -74,7 +75,7 @@ button:hover{
 }
 .header-box2{
     background-color: #DEECFF;
-    height: 230px;
+    height: fit-content;
     font-family: 'Gotham';
     font-style: normal;
     font-weight: bolder;
@@ -82,6 +83,42 @@ button:hover{
     line-height: 40px;
     color: #19437D;
     padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 210px;
     padding-right: 210px;
+}
+
+@media (max-width:800px) {
+    .header-box{
+        gap: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-con{
+        height: fit-content;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .img{
+        height: 200px;
+        margin-top: 100px;
+        width: 70vw;
+    }
+    .header-box2{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    input,select{
+        width: 70vw;
+    }
+    form{
+        /* background-color: aqua; */
+        align-items: center;
+        width: fit-content;
+        padding: 0px;
+    }
+    button{
+        width: 280px;
+    }
 }

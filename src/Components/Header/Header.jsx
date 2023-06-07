@@ -15,13 +15,13 @@ const Header = () => {
                 <input required type="text" placeholder='Name'/>
                 <input required type="number" placeholder='Mo.number'/>
                 <input required type="email" placeholder='Email'/>
-                <select name="" id="">
+                <select required name="" id="">
                     <option value="" disabled selected>City</option>
                     <option value="">India</option>
                     <option value="">USA</option>
                     <option value="">UK</option>
                 </select>
-                <select name="" id="">
+                <select required name="" id="">
                     <option value="" disabled selected>Product Type</option>
                     <option value="">Type1</option>
                     <option value="">Type2</option>

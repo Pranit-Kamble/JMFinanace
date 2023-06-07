@@ -1,0 +1,84 @@
+.section{
+    font-family: 'Gotham';
+    color: white;
+    padding-top: 100px;
+    background-color: #1E3565;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 150px;
+}
+@font-face {
+    font-family: 'Team';
+    src: url('../Fonts/varsity_team/VarsityTeam-Bold.otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../Fonts//Gotham-Font/Gotham-Font/Gotham-Bold.otf');
+}
+h1{
+    font-size: 60px;
+    font-family: 'Team';
+    margin-top: 120px;
+    margin-bottom: 30px;
+
+}
+.section-box{
+    margin-top: 40px;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.section-card1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    width: 45%;
+    padding-left: 20px;
+    /* padding-right: 110px; */
+    /* height: 400px; */
+    /* width: 200px; */
+    /* background-color: aqua; */
+    /* border-right: 2px dotted white; */
+}
+.section-card2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    width: 45%;
+    padding-left: 100px;
+    /* height: 400px; */
+    /* width: 200px; */
+    /* background-color: aqua; */
+    border-left: 2px dashed white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-card3{
+    padding: 20px;
+    background-color: #DEECFF;
+    width: 70%;
+    height: 180px;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    /* line-height: 20px; */
+    color: #19437D;
+    font-size: 22px;
+    
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #EE1F42;
+}

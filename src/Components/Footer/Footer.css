@@ -1,0 +1,12 @@
+.footer{
+    background-color: #81BDD9;
+    padding:60px;
+    font-family: 'Gotham-light';
+}
+h3{
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: 'Gotham-light';
+    src: url('../Fonts/Gotham-Font/Gotham-Font/Gotham-Light.otf');
+}
